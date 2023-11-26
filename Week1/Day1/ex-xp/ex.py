@@ -38,13 +38,19 @@
 
 #ex8
 # My_name = 'Evgenii'
-# name = input("What is your name ")
-# if My_name == name:
-#     print('Our names are same!')
+# name = input('What is your name?')
+# if name == My_name:
+#     print('Our names are the same!')
 # else:
 #     print('Our names are not the same!')
 
 #ex9
+# height_in_inch = int(input('What is your height in inches?'))
+# height_in_sm = height_in_inch * 2.54
+# if height_in_sm > 145:
+#     print('Are you tall enough to ride a horse!')
+# else:
+#     print('You need to grow up a little..')
 
 
 
