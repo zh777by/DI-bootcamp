@@ -1,4 +1,4 @@
-user_input = input("Enter a string (must be 10 characters long): ")
+# user_input = input("Enter a string (must be 10 characters long): ")
 # if len(user_input) < 10:
 #     print('string not long enough') 
 # elif len(user_input) > 10:
