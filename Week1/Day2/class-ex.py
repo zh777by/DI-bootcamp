@@ -11,7 +11,7 @@ if 20 in list1:
 
 print(list1)
 
-# 2 - FOOR LOOP EXERCISE
+# 2 - FOR LOOP EXERCISE
 
 user_num = int(input('give a number'))
 print(type(user_num))
