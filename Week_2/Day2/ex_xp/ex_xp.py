@@ -66,4 +66,36 @@
 #         break
 # total_price = base_price + len(toppings) * topping_price
 
-# I don't have more time 
+# Sorry I don't have more time 
+
+
+#ex9
+# family_size = int(input('How many people in a family? '))
+
+# ages = []
+
+# for i in range(family_size):
+#     age = int(input(f'Enter the age of family member {i+1}: '))
+#     ages.append(age)
+
+# print('Ages of family members:', ages)
+
+# if age < 3:
+#   age_price = 0
+# elif 3< age < 12:
+#   age_price = 10
+# else:
+#   age_price = 15
+
+# total_price = age * age_price
+
+# print(f"Total price is: ${total_price}")
+
+
+
+
+
+
+
+
+

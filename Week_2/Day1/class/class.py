@@ -29,12 +29,12 @@
 # my_age = '33'
 # future_years = 123879 
 # ​
-# # my_age_f = my_age + future_years
-# # print(my_age_f)
+# my_age_f = my_age + future_years
+# print(my_age_f)
 # ​
 # str_age = int(my_age)
 # print(type(str_age)) # '123879'
-# ​
+
 # my_age_f = str_age + future_years
 # print(my_age_f)
 # ​
@@ -46,7 +46,7 @@
 # ​
 # print('1st', 5 > 3)
 # print('2nd', 5 <= 3)
-# # print('3th', 5 >= '3') WILL GIVE A TypeError
+# print('3th', 5 >= '3')  WILL GIVE A TypeError
 # print('4th' ,5 == '5')
 # print('5th', 5 != 3)
 # my_name = 'Maria'
@@ -64,14 +64,14 @@
 # print(bool(bool_var))
 # ​
 # my_age = 33
-# ​
+
 # my_age += 2
 # print(my_age)
 # ​
 # my_name = 'Juli'
-# ​
+
 # my_name += 'ana'
-# ​
+
 # print(my_name)
 # ​
 # score = 0
