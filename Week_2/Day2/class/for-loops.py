@@ -1,4 +1,4 @@
-students = ['Lior', 'Sveta', 'Estee', 'David']
+# students = ['Lior', 'Sveta', 'Estee', 'David']
 
 
 # #regular for loop

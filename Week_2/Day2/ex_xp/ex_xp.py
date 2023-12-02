@@ -71,7 +71,6 @@
 
 #ex9
 # family_size = int(input('How many people in a family? '))
-
 # ages = []
 
 # for i in range(family_size):
@@ -88,8 +87,59 @@
 #   age_price = 15
 
 # total_price = age * age_price
-
 # print(f"Total price is: ${total_price}")
+
+
+# goup_size = int(input('How many people? '))
+# list_of_teenagers = []
+
+# for i in range(goup_size):
+#   age = int(input(f'Enter the age of each member {i+1}: '))
+#   list_of_teenagers.append(age)
+
+
+# if 16 < age < 21 in list_of_teenagers: 
+#   list_of_teenagers.remove(age)
+  
+# print(list_of_teenagers)
+
+
+#ex10
+
+# sandwich_orders = ["Tuna sandwich", "Pastrami sandwich", "Avocado sandwich", "Pastrami sandwich", "Egg sandwich", "Chicken sandwich", "Pastrami sandwich"]
+
+# while "Pastrami sandwich" in sandwich_orders:
+#     sandwich_orders.remove("Pastrami sandwich")
+# # print(sandwich_orders)
+
+# finished_sandwiches = []
+
+# sandwich_orders.remove("Tuna sandwich")
+# finished_sandwiches.append("Tuna sandwich")
+# sandwich_orders.remove("Avocado sandwich")
+# finished_sandwiches.append("Avocado sandwich")
+# sandwich_orders.remove("Egg sandwich")
+# finished_sandwiches.append("Egg sandwich")
+# sandwich_orders.remove('Chicken sandwich')
+# finished_sandwiches.append('Chicken sandwich')
+
+# print("I made your tuna sandwich")
+# print("I made your avocado sandwich")
+# print("I made your egg sandwich")
+# print("I made your chicken sandwich")
+
+
+
+
+
+
+
+
+
+
+    
+
+
 
 
 
