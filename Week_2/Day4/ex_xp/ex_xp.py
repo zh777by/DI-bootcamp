@@ -50,20 +50,23 @@
 # make_shirt(size="any", text="No size shift")
 
 
-#6
-# magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']
+#6_my
+magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']
 
-# def show_magicians(magician_names): 
-#     print(f"Magican names: {magician_names}")
+def show_magicians(magician_names): 
+    print(f"Magican names: {magician_names}")
 
-# # show_magicians(magician_names)
+show_magicians(magician_names)
 
-# def add_make_great(magician_names):
-#     for n in range(len(magician_names)):
-#         magician_names[n] = "The Great " + magician_names[n]
+def add_make_great(magician_names):
+    for n in range(len(magician_names)):
+        magician_names[n] = "The Great " + magician_names[n]
 
-# add_make_great(magician_names)
-# show_magicians(magician_names)
+add_make_great(magician_names)
+show_magicians(magician_names)
+
+
+
 
 
 #7
