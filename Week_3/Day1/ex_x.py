@@ -11,13 +11,13 @@
 
 # cats = [cat_1, cat_2, cat_3]
 
-# def oldest_cat():
-#     for cat in cats:
-#         print(max(cat.age))
-    
-#     return oldest_cat
+# oldest_cat = cats[0]
 
-# print(f"The oldest cat is {oldest_cat.name}, and is {oldest_cat.age} years old.")
+# for cat in cats[1:]:
+#     if cat.age > oldest_cat.age:
+#         oldest_cat = cat
+
+# print(f"The oldest cat is {oldest_cat.name} with age {oldest_cat.age} years.")
 
 
 
