@@ -1,41 +1,35 @@
-# ex1
+# # ex1
 
 # class Currency:
-#     def __init__(self, currency, amount):
-#         self.currency = currency
+#     def __init__(self, label, amount):
+#         self.label = label
 #         self.amount = amount
 
 #     def __str__(self):
-#         return f'{self.amount} {self.currency}'
+#         return f'{self.amount} {self.label}'
 
 #     def __int__(self):
-#         return self.amount
+#         return int(self.amount)
 
 #     def __repr__(self):
-#         return f'{self.amount} {self.currency}'
-
-#     def __int__(self):
-#         return self.amount
+#         return f'{self.amount} {self.label}'
 
 #     def __add__(self, other):       
-#         if isinstance(other, (int, float)):
-#             return Currency(self.currency, self.amount + other) 
-
-#         elif isinstance(other, Currency):
-#             if self.currency != other.currency:
-#                 raise TypeError(f"Cannot add between Currency type <{self.currency}> and <{other.currency}>")
-#             return Currency(self.currency, self.amount + other.amount)
+#         if type(other) == int:
+#             return self.amount + other
+        
+#         elif self.label == other.label: 
+#             self.amount += other.amount
+#             return self.amount + other.amount
+        
+#         else:
+#             raise TypeError ('different label')
+    
 
 #     def __iadd__(self, other):
-#         if isinstance(other, (int, float)):
-#             self.amount += other
-#         elif isinstance(other, Currency):
-#             if self.currency != other.currency:
-#                 raise TypeError(f"Cannot add between Currency type <{self.currency}> and <{other.currency}>")
-#             self.amount += other.amount
-#         else:
-#             raise TypeError(f"Unsupported operand type: {type(other)}")
-#         return self
+#         if type(other) == int:
+#             return self.amount + other      
+
 
 # c1 = Currency('dollar', 5)
 # c2 = Currency('dollar', 10)
@@ -118,6 +112,21 @@
 #     users.append(user)
 
 
+class MyClass:
+  __counter = 0
 
+  @classmethod
+  def add(cls,a): 
+    return cls.__counter + a
+
+my_class_add = MyClass.add(3)
+print(my_class_add)
+# >> 3
+
+new_class = MyClass()
+new_class.__counter = 1
+
+print(new_class.add(3))
+# >> 3
 
 
