@@ -119,18 +119,18 @@
 #             print(f"Name: {member['first_name']}, Age: {member['age']}, Relationship: {member['relationship']}")
 
 
-# #ex5
+# # #ex5
 # class TheIncredibles(Family):
-#     def __init__(self, members):
-#         super().__init__(members)
+#     def incredible_presentation(self):
+#         super().family_presentation
 
 # incredible_mambers =  [
 #         {'name':'Michael','age':35,'gender':'Male','is_child':False,'power': 'fly','incredible_name':'MikeFly'},
 #         {'name':'Sarah','age':32,'gender':'Female','is_child':False,'power': 'read minds','incredible_name':'SuperWoman'}
 #     ]
 
-# def use_power(self, member_name):
-#     for member in self.members:
+# incredible_fam = TheIncredibles("Incredible", data2)
+
 
 
 
