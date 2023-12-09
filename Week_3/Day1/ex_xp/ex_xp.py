@@ -72,41 +72,50 @@
 #ex4
 
 # class Zoo:
-#     def __init__(self, zoo_name):
-#         self. animals = []
-#         self.name = zoo_name        
+#     def __init__(self, zoo_name) -> None:
+#         self.zoo_name = zoo_name
+#         self.animals = []
 
-#     def add_animal(self,new_animal):
-#         if new_animal not in self.animals:
-#             self.animals.append(new_animal)
+#     def add_animal(self, *new_animal):
+#         for animal in new_animal:
+#             if animal in self.animals:
+#                 print('Animal already in the list')
+#             else:
+#                 self.animals.append(animal)
 
 #     def get_animals(self):
-#         for animal in self.animals:
-#             print(animal)
-
-#     def sell_animal(self, animal_sold):
-#         if animal_sold in self.animals:
-#             self.animals.remove(animal_sold)
+#         print(self.animals)
 
 #     def sort_animals(self):
 #         sorted_animals = sorted(self.animals)
+#         groups = {}   
+#         for animal in sorted_animals:
+#             first_letter = animal[0]
+#             if first_letter not in groups:
+#                 groups.update({first_letter:[animal]})
+#             else:
+#                  groups[first_letter].append(animal)
 
-# #next not defined
+#         return groups
+                
+#     def get_groups(self):
+#         groups_dict = self.sort_animals()
+#         new_dict = {}
+#         for i, group in enumerate(groups_dict):
+#             new_dict.update({i+1 : groups_dict[group]})
+#         return new_dict
+            
 
-# ramat_gan_safari = Zoo("Ramat Gan Safari")
+# safari_rg = Zoo('Safari Ramat Gan')
+# safari_rg.add_animal('Giraffe', 'Monkey', 'Lion', 'Arara', 'Bear', 'Baboon', 'Ape')
+# safari_rg.get_animals()
+# print(safari_rg.sort_animals())
+# print(safari_rg.get_groups())
 
-# ramat_gan_safari.add_animal("lion")
-# ramat_gan_safari.add_animal("elephant")
-# ramat_gan_safari.add_animal("giraffe")
-# ramat_gan_safari.add_animal("zebra")
-# ramat_gan_safari.add_animal("kangaroo")
 
-# ramat_gan_safari.get_animals()
-# ramat_gan_safari.sell_animal("elephant")
-# ramat_gan_safari.get_animals()
 
-# ramat_gan_safari.sort_animals()
 
+        
 
 
 

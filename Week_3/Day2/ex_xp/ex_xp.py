@@ -99,24 +99,57 @@
 
 #ex4
 # class Family:
-#     def __init__(self, members, last_name: str):
+#     def __init__(self, last_name):
 #         self.members = []
 #         self.last_name = last_name
 
-#     def born(self, **kwargs):
-#         self.add_member(**kwargs)
-#         print(f"Congratulations! Child is born into the {self.last_name} family.")
+#     def add_member(self, first_name, age, relationship):
+#         member = {
+#             'first_name': first_name,
+#             'age': age,
+#             'relationship': relationship
+#         }
+#         self.members.append(member)
 
-#     def is_18(self, name, member_age):
+#     def born(self, **kwargs):
+#         child_first_name = kwargs.get('first_name', 'Unknown')
+#         child_gender = kwargs.get('gender', 'Unknown')
+
+#         self.add_member(child_first_name, 0, f"Newborn {child_gender}")
+#         print(f"Congratulations! A new member, {child_first_name}, has been born to the {self.last_name} family.")
+
+#     def is_18(self, name):
 #         for member in self.members:
-#             if member_age > 18:
-#                 return True
-#             else:
-#                 return False
-            
-#     def family_presentation(self):
+#             if member['first_name'] == name:
+#                 return member['age'] > 18
+#         return False
+
+#     def display_family_members(self):
+#         print(f"Family Members of {self.last_name}:")
 #         for member in self.members:
 #             print(f"Name: {member['first_name']}, Age: {member['age']}, Relationship: {member['relationship']}")
+
+
+# # Creating an instance of the Family class with the last name "Johnson"
+# johnson_family = Family(last_name="Johnson")
+
+# # Adding members to the family
+# johnson_family.add_member("Michael", 35, "Father")
+# johnson_family.add_member("Sarah", 32, "Mother")
+
+# # Displaying family members
+# johnson_family.display_family_members()
+
+# # Checking if a family member is over 18
+# print(johnson_family.is_18("Michael"))  # True
+# print(johnson_family.is_18("Sarah"))    # True (assuming parents are considered adults)
+
+# # Adding a newborn to the family
+# johnson_family.born(first_name="Alex", gender="Male")
+
+# # Displaying family members after the newborn is added
+# johnson_family.display_family_members()
+
 
 
 # # #ex5
