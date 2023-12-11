@@ -32,7 +32,7 @@ select * from students where first_name like '_a%a'
 select * from students where id in (1, 3)
 
 
--- ex_dc
+-- ex_g
 select * from students
 order by last_name
 limit 4

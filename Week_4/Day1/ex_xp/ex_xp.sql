@@ -22,11 +22,13 @@ create table customers (
 select * from customers
 drop table customers
 
-insert into customers (id, Name, Surname) values (1, 'Greg', 'Jones')
-insert into customers (id, Name, Surname) values (2, 'Sandra', 'Jones')
-insert into customers (id, Name, Surname) values (3, 'Scott', 'Scott')
-insert into customers (id, Name, Surname) values (4, 'Trevor', 'Green')
-insert into customers (id, Name, Surname) values (5, 'Melanie', 'Johnson')
+insert into customers (id, Name, Surname) 
+values 
+	(1, 'Greg', 'Jones'),
+	(2, 'Sandra', 'Jones'),
+	(3, 'Scott', 'Scott'),
+	(4, 'Trevor', 'Green'),
+	(5, 'Melanie', 'Johnson')
 
 select * from items
 select * from customers
@@ -56,7 +58,7 @@ values
     (3, 'Lea', 'Benichou', '1987-07-27'),
     (4, 'Amelia', 'Dux', '1996-04-07'),
     (5, 'David', 'Grez', '2003-06-14'),
-    (6, 'Omer', 'Simpson', '1980-10-03');
+    (6, 'Omer', 'Simpson', '1980-10-03')
 	
 insert into students (id, first_name, last_name, birth_date) values (7, 'Evgenii', 'Byalo', '1977-07-06')
 
@@ -71,14 +73,20 @@ select * from students where first_name like '_a%a'
 select * from students where id in (1, 3)
 
 
--- ex_dc
+-- ex_g
+
 select * from students
 order by last_name
 limit 4
 
 select * from students
 order by birth_date desc
-limit 1;
+limit 1
+
+select * from students
+limit 3 
+offset 2
+
 
 
 
