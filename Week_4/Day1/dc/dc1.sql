@@ -1,11 +1,11 @@
--- ex_g
-select * from students
-order by last_name
-limit 4
+dc1
 
-select * from students
-order by birth_date desc
-limit 1;
+SELECT COUNT(actor_id) FROM actor
+
+INSERT INTO actor (first_name, last_name, last_update)
+VALUES ('John', 'Doe', CURRENT_TIMESTAMP)
+
+SELECT * FROM actor
 
 
 
