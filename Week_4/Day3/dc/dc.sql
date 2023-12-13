@@ -93,7 +93,6 @@ VALUES (
     '2022-02-15'
 )
 
--- Insert record for Bob borrowing To kill a mockingbird on 03/03/2021
 INSERT INTO Library (book_fk_id, student_fk_id, borrowed_date)
 VALUES (
     (SELECT book_id FROM Book WHERE title = 'To kill a mockingbird'),
