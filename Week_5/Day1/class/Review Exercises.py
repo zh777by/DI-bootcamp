@@ -72,3 +72,68 @@
 #     print("It is time to retire.")
 # else:
 #     print("It's not yet time to retire.")
+
+
+#8. Write a loop to print every number between 10 and 20.
+
+# for number in range(10, 21):
+#     print(number)
+
+
+#9. Write a loop to print every odd number between 1 and 20.
+
+# for number in range(21):
+#     if number % 2 != 0:
+#         print(number)
+
+
+#10. Write code with a list of five names. Print the names one by one using a loop.
+
+# names = ["Anna", "Tim", "Mark", "Olga", "Boris"]
+
+# for name in names:
+#     print(name)
+
+
+#11. Write a loop that takes numbers from the user until it receives the number 0 and prints the sum of the numbers received.
+
+# sum_of_numbers = 0
+
+# while True:
+#     user_input = int(input("Enter a number: "))
+#     if user_input == 0:
+#         break  
+#     sum_of_numbers += user_input
+
+# print("Sum of the numbers:", sum_of_numbers)
+
+
+#12. Write a loop that takes words from the user until it receives the word 'done' and prints the longest word received.
+
+# words = []
+
+# while True:
+#     word = input("Enter a word (type 'done' to finish): ")
+
+#     if word == 'done':
+#         break
+#     words.append(word)
+
+# if words:
+#     longest_word = max(words, key=len)
+#     print("The longest word is:", longest_word)
+# else:
+#     print("No words were entered.")
+
+
+#13. Write a function that takes a string as input and prints its length:
+
+# def string_length(input_string):
+#     length = len(input_string)
+#     print(f"The length of string is: {length}")
+
+# user_input = input("Enter a string: ")
+# string_length(user_input)
+
+
+
