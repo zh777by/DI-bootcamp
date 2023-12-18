@@ -136,4 +136,40 @@
 # string_length(user_input)
 
 
+#14. Define a function that takes three numbers and prints their average.
+
+# def calculate_average(num1, num2, num3):
+#     total = num1 + num2 + num3
+#     average = total / 3
+#     print("The average is:", average)
+
+# num1 = 10
+# num2 = 10
+# num3 = 10
+
+# calculate_average(num1, num2, num3)
+
+
+#15. Define a function that takes two arguments, a string and a number and checks
+# if the string has more characters than the number. 
+
+# def string_length(input_string, number):
+#     return len(input_string) > number
+
+# result = string_length('string', 3)
+# print(result)
+
+
+#16. Write a function that copies a string a certain number of times, based on the
+# input. Set the default amount of copies to be 1.
+
+# def copy_string(input_string, num_copies=1):
+#     return input_string * num_copies
+
+# original_string = "Hello, class!"
+# result = copy_string(original_string)  
+# print(result)
+
+# result_3_copies = copy_string(original_string, 3)  
+# print(result_3_copies)
 
