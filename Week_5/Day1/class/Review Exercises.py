@@ -17,7 +17,7 @@
 #     else:
 #         print(string[::-1])
 
-
+###########Incorrect. The code currently prints all names in the list. To print every other name, it should use slicing (names[::2]).
 #3. Write code for a list that contains four names and prints every other name.
 
 # names = ["Anna", "Tim", "Mark", "Olga"]
@@ -50,8 +50,12 @@
 # }
 # print(my_dict)
 
+<<<<<<< HEAD
 
 # Conditions
+=======
+##########Almost correct. The input for blood_alcohol_level should be a float, not an int, as blood alcohol levels are typically fractional values.
+>>>>>>> 0431c2d03ae946fd8936978ef891a74347b69451
 #6. A user is allowed to drive home if their blood alcohol is less than 0.5 %. 
 #Ask a user for their blood alcohol level and if they're not sober, tell them to take a cab.
 
