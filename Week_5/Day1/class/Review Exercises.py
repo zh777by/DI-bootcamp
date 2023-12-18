@@ -51,6 +51,7 @@
 # print(my_dict)
 
 
+# Conditions
 #6. A user is allowed to drive home if their blood alcohol is less than 0.5 %. 
 #Ask a user for their blood alcohol level and if they're not sober, tell them to take a cab.
 
@@ -74,6 +75,7 @@
 #     print("It's not yet time to retire.")
 
 
+#Loops
 #8. Write a loop to print every number between 10 and 20.
 
 # for number in range(10, 21):
@@ -103,7 +105,7 @@
 #     user_input = int(input("Enter a number: "))
 #     if user_input == 0:
 #         break  
-#     sum_of_numbers += user_input
+#     sum_of_numbers = sum_of_numbers = user_input # sum_of_numbers += user_input
 
 # print("Sum of the numbers:", sum_of_numbers)
 
@@ -126,6 +128,7 @@
 #     print("No words were entered.")
 
 
+#Functions
 #13. Write a function that takes a string as input and prints its length:
 
 # def string_length(input_string):
@@ -138,7 +141,7 @@
 
 #14. Define a function that takes three numbers and prints their average.
 
-# def calculate_average(num1, num2, num3):
+# def average(num1: float, num2: float, num3: float):
 #     total = num1 + num2 + num3
 #     average = total / 3
 #     print("The average is:", average)
@@ -147,7 +150,7 @@
 # num2 = 10
 # num3 = 10
 
-# calculate_average(num1, num2, num3)
+# average(num1, num2, num3)
 
 
 #15. Define a function that takes two arguments, a string and a number and checks
