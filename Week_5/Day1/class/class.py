@@ -96,14 +96,14 @@
 
 ## Functions with return values/output ##
 
-def sum(number1: int, number2: int):
-    result = number1 + number2
-    print(result)
-    # return result
+# def sum(number1: int, number2: int):
+#     result = number1 + number2
+#     print(result)
+#     # return result
 
-res = sum(45, 68)
-print(res)
+# res = sum(45, 68)
+# print(res)
 
-result2 = res + 9
-result2 = sum(res,9)
-print(result2)
+# result2 = res + 9
+# result2 = sum(res,9)
+# print(result2)
