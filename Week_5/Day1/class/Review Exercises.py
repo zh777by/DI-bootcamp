@@ -50,16 +50,11 @@
 # }
 # print(my_dict)
 
-<<<<<<< HEAD
 
-# Conditions
-=======
-##########Almost correct. The input for blood_alcohol_level should be a float, not an int, as blood alcohol levels are typically fractional values.
->>>>>>> 0431c2d03ae946fd8936978ef891a74347b69451
 #6. A user is allowed to drive home if their blood alcohol is less than 0.5 %. 
 #Ask a user for their blood alcohol level and if they're not sober, tell them to take a cab.
 
-# blood_alcohol_level = int(input('write your blood alcohol level: '))
+# blood_alcohol_level = float(input('write your blood alcohol level: '))
 
 # if blood_alcohol_level < 0.5:
 #     print("You are sober. You can drive home.")

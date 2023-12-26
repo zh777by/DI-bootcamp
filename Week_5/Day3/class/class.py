@@ -1,3 +1,8 @@
+#https://colab.research.google.com/drive/1vG83NJTgxe-a1CM2mz_WXso5wD3aJkoD?usp=sharing
+
+#https://colab.research.google.com/drive/1atSDjVt8f6c44Ww_80JCXRkh4k126F4U
+
+
 import matplotlib.pyplot as plt
 
 # Creating a figure and axes
