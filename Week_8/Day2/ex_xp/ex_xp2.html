@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML with JavaScript</title>
+</head>
+<body>
+
+    <h1 id="mainHeading">This is an HTML file with JavaScript</h1>
+    <p>It contains both HTML content and JavaScript code.</p>
+
+    <script>
+        // JavaScript code
+        document.addEventListener('DOMContentLoaded', function() {
+            // Code to execute on page load
+            let newHeaderText = "Dynamic Heading Changed!";
+            document.getElementById('mainHeading').innerText = newHeaderText;
+        });
+    </script>
+
+</body>
+</html>
